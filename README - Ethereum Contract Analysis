@@ -1,0 +1,49 @@
+
+# 🧾 Ethereum Smart Contract Data Extraction & Analysis
+
+This project demonstrates how to connect to the Ethereum mainnet using Web3.py and Infura, extract smart contract data, and perform basic analysis using Python.
+
+## 🔍 Objective
+
+The primary goal of this project is to:
+- Establish a connection to the Ethereum blockchain
+- Interact with a deployed smart contract
+- Retrieve and decode data from the blockchain
+- Visualize relevant information using Python libraries
+
+## ⚙️ Tools & Technologies
+
+- **Web3.py**: For Ethereum blockchain interaction
+- **Infura**: Node provider for connecting to Ethereum
+- **Python** (Pandas, Requests, Matplotlib, Seaborn): For data manipulation and visualization
+- **Smart Contract ABI**: Used to decode contract method calls
+
+## 🏗️ Workflow Overview
+
+1. Connect to Ethereum mainnet using Infura and Web3
+2. Load the contract using its address and ABI
+3. Extract and inspect relevant contract data
+4. Analyze and visualize extracted data using `pandas` and plotting libraries
+
+## 📁 Files
+
+- `Ethereum_Contract_Analysis`: Main Jupyter notebook containing connection setup, contract querying, and visualization logic
+
+## 📈 Output
+
+The notebook includes:
+- Connection validation with Infura
+- Smart contract initialization and interaction
+- Data visualization to better understand smart contract parameters and state
+
+## 🚀 Applications
+
+This project can be extended or applied to:
+- Blockchain forensic analysis
+- DeFi smart contract risk analysis
+- Portfolio insights from DeFi protocols
+
+---
+
+
+
